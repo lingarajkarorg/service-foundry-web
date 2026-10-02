@@ -1,0 +1,34 @@
+{
+    "app_title": "Service Foundry",
+    "menu": {
+        "home": "Accueil",
+        "features": "Fonctionnalités",
+        "platform_overview": "Aperçu de la Plateforme",
+        "infra_foundry": "Infra Foundry",
+        "sso_foundry": "SSO Foundry",
+        "observability_foundry": "Observability Foundry",
+        "backend_foundry": "Backend Foundry",
+        "big_data_foundry": "Big Data Foundry",
+        "console": "Console Service Foundry",
+        "architecture": "Architecture",
+        "installation": "Installation",
+        "tutorials": "Tutoriels",
+        "downloads": "Téléchargements",
+        "documentation": "Documentation",
+        "examples": "Exemples",
+        "pricing": "Tarification",
+        "about": "À propos",
+        "blog": "Blog / Actualités"
+    },
+    "home_page": {
+        "hero_title": "Ingénierie de Plateforme Kubernetes-Native, Automatisée.",
+        "cta_download": "Télécharger l'Édition Communautaire",
+        "value_gitops": "Piloté par GitOps",
+        "value_modular": "Modulaire (Infra / SSO / O11y / Data / Backend)",
+        "value_prod_ready": "Modèles prêts pour la production et automatisation",
+        "quick_links": "Liens Rapides",
+        "docs": "Documentation",
+        "github": "GitHub",
+        "youtube": "YouTube"
+    }
+}

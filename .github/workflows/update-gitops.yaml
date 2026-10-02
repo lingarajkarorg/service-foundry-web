@@ -1,0 +1,31 @@
+name: Update GitOps Repo
+
+on:
+  workflow_run:
+    workflows: ["Build and Push Image"]
+    types:
+      - completed
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout GitOps repo
+        uses: actions/checkout@v4
+        with:
+          repository: nsalexamy/service-foundry-argocd
+          token: ${{ secrets.GITOPS_TOKEN }}
+
+      - name: Update image tag
+        run: |
+          TAG=${GITHUB_SHA::7}
+          sed -i "s|tag:.*|tag: \"${TAG}\"|" \
+            demo-apps/service-foundry-web-gitops/staging/values-staging.yaml
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -am "deploy: service-foundry-web ${GITHUB_SHA::7}"
+          git push

@@ -1,0 +1,34 @@
+{
+    "app_title": "서비스 파운드리",
+    "menu": {
+        "home": "홈",
+        "features": "기능",
+        "platform_overview": "플랫폼 개요",
+        "infra_foundry": "인프라 파운드리",
+        "sso_foundry": "SSO 파운드리",
+        "observability_foundry": "관측 가능성 파운드리",
+        "backend_foundry": "백엔드 파운드리",
+        "big_data_foundry": "빅데이터 파운드리",
+        "console": "서비스 파운드리 콘솔",
+        "architecture": "아키텍처",
+        "installation": "설치 가이드",
+        "tutorials": "튜토리얼",
+        "downloads": "다운로드",
+        "documentation": "문서",
+        "examples": "예제",
+        "pricing": "요금제",
+        "about": "소개",
+        "blog": "블로그 / 뉴스"
+    },
+    "home_page": {
+        "hero_title": "쿠버네티스 네이티브 플랫폼 엔지니어링, 자동화.",
+        "cta_download": "커뮤니티 에디션 다운로드",
+        "value_gitops": "GitOps 기반",
+        "value_modular": "모듈식 (인프라 / SSO / 관측성 / 데이터 / 백엔드)",
+        "value_prod_ready": "프로덕션 준비 완료된 템플릿 및 자동화",
+        "quick_links": "빠른 링크",
+        "docs": "문서",
+        "github": "GitHub",
+        "youtube": "YouTube"
+    }
+}
